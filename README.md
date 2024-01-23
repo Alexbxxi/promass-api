@@ -15,8 +15,12 @@ Este proyecto ha sido realizado con NodeJs v20.10.0 + Express(last version) + Ty
 1.- Descargar o clonar el repositorio.
 <br>
 2.- Ejecutar el comando <code>npm install</code>
+<br>
+3.- Instalar el cliente de PostgreSQL localmente, crear una nueva conexión y una base datos con las características proporcionadas por mail del archivo enviroment.txt
+<br>
 
-A continuación ejecutar los siguientes comandos para configurar la imagen de Docker (OPCIONAL):
+<h3OPCIONAL<h3>
+En dado caso de no tener instalado localmente el cliente de PosgreSQL y tener Docker seguir los siguientes pasos:
 <br>
 3.- Descarga la imagen oficial de PostgreSQL: <code>docker pull postgres</code>
 <br>
@@ -25,9 +29,7 @@ A continuación ejecutar los siguientes comandos para configurar la imagen de Do
 5.- Este comando crea la imagen, la instancia y la de la base de datos: <code>docker run -d --name mi-postgres-container -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=dev.PROMASS_BLOG -p 5432:5432 postgres</code> 
 <br>
 (En el comando donde dice "mi-postgres-container pueden poner cualquier nombre a su contenedor).
-<br>
 
-En dado caso de no tener Docker, tendrá que instalar el cliente de PostgreSQL localmente,una nueva conexión y una base datos con las características proporcionadas por mail del archivo enviroment.txt
 
 ## Pasos para levantar el proyecto
 
