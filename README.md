@@ -19,7 +19,7 @@ Este proyecto ha sido realizado con NodeJs v20.10.0 + Express(last version) + Ty
 3.- Instalar el cliente de PostgreSQL localmente, crear una nueva conexión y una base datos con las características proporcionadas por mail del archivo enviroment.txt
 <br>
 
-<h3OPCIONAL</h3>
+<h3>OPCIONAL</h3><br>
 En dado caso de no tener instalado localmente el cliente de PosgreSQL y tener Docker seguir los siguientes pasos:
 <br>
 3.- Descarga la imagen oficial de PostgreSQL: <code>docker pull postgres</code>
